@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de livros</title>
+
+    <link rel="stylesheet" href="cadastro-livros.css">
+</head>
+
+<body>
+    <section class="login-page">
+        <div class="login-container">
+            <h2>Livroline</h2>
+            <p>Cadastre, consulte, retire e leia os melhores livros acadêmicos do Brasil em um só lugar</p>
+
+            <button class="entrar-user">Entrar - Usuário</button>
+            <button class="entrar-admin">Entrar - Administrador</button>
+
+            <div class="right-content">
+                <img src="../atv4/7d01157c5bed0afdc708d3b1d5402d68.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="user-profile">
+        <div class="user-prof-container">
+            <div class="up-left-container">
+                <h2>Pagina do usuário - Entrar</h2>
+                <p>Bem-vindo(a) a pagina do usuário! Aqui você consegue gerir todos os livros que retirou para ler</p>
+            </div>
+
+            <div class="up-right-container">
+                <h2>Informe sua credenciais</h2>
+                <p>Aqui você deve preencher os campos abaixo com as suas credenciais cadastradas</p>
+                <form action="#" class="up-form">
+                    <input type="text" id="common-name" placeholder="Seu nome">
+                    <input type="text" id="username" placeholder="Nome de usuário">
+                    <input type="password" id="user-id" placeholder="Código de usuário" inputmode="numeric">
+
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="admin-profile">
+        <div class="adm-prof-container">
+            <h2>Informe sua credenciais de adminstrador</h2>
+            <p>Atenção, apenas funcionários e pessoas autorizadas podem ter acesso a este perfil. Não compartilhe os
+                dados que aqui forem inseridos</p>
+            <form action="#" class="adm-form">
+                <input type="text" id="common-name" placeholder="Seu nome">
+                <input type="text" id="username" placeholder="Nome de usuário">
+                <input type="password" id="adm-id" placeholder="Código de administrador" inputmode="numeric">
+                <input type="password" id="school-code" placeholder="Código da escola" inputmode="numeric">
+
+                <input type="submit">
+            </form>
+        </div>
+    </section>
+
+    <section class="adm-management-books">
+        <div class="mng-books-container">
+            <div class="sidebar-mng-books">
+                <ul>
+                    <li><button class="adm-management-profile">Home</button></li>
+                    <li><button class="signin-book">Cadastrar livro</button></li>
+                    <li><button class="view-books">Ver livros</button></li>
+                </ul>
+            </div>
+
+            <div class="main-page-management-books">
+                <h2>Bem vindo(a) administrador(a)</h2>
+                <p>Escolha uma das opções abaixo. Para mais opções utilize a barra lateral</p>
+                <button class="signin-books">Cadastrar livros</button>
+                <button href="">Fechar perfil</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="preorder-books-container">
+        Reservar e retirada de livros
+        <form action="#" class="preorder-books-container">
+            <input type="text" id="book-name" placeholder="Nome do livro">
+            <input type="text" id="book-id" placeholder="Código do livro">
+        </form>
+    </div>
+
+    <section class="user-view-app">
+
+    </section>
+</body>
+
+</html>
